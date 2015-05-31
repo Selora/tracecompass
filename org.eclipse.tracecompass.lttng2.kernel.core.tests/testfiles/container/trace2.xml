@@ -1,0 +1,239 @@
+<trace>
+<event timestamp="0" name="set_aspects">
+<field name="cpu" value="0" type="int" />
+</event>
+<event timestamp="10" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="1" type="long" />
+<field name="next_tid" value="10" type="long" />
+</event>
+<event timestamp="35" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="10" type="long" />
+<field name="next_tid" value="11" type="long" />
+</event>
+<event timestamp="75" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="11" type="long" />
+<field name="next_tid" value="100" type="long" />
+</event>
+<event timestamp="175" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="100" type="long" />
+<field name="next_tid" value="1" type="long" />
+</event>
+<event timestamp="225" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="1" type="long" />
+<field name="next_tid" value="10" type="long" />
+</event>
+<event timestamp="275" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="10" type="long" />
+<field name="next_tid" value="11" type="long" />
+</event>
+<event timestamp="375" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="11" type="long" />
+<field name="next_tid" value="100" type="long" />
+</event>
+<event timestamp="475" name="lttng_statedump_process_state">
+<field name="cpu" value="0" type="int" />
+<field name="tid" value="1" type="long" />
+<field name="pid" value="0" type="long" />
+<field name="vtid" value="1" type="long" />
+<field name="ppid" value="0" type="long" />
+<field name="ns_level" value="0" type="long" />
+<field name="ns_inum" value="1111" type="long" />
+<field name="status" value="0" type="long" />
+<field name="name" value="test0" type="string" />
+</event>
+<event timestamp="480" name="lttng_statedump_process_state">
+<field name="cpu" value="0" type="int" />
+<field name="tid" value="10" type="long" />
+<field name="pid" value="1" type="long" />
+<field name="vtid" value="1" type="long" />
+<field name="ppid" value="1" type="long" />
+<field name="ns_level" value="1" type="long" />
+<field name="ns_inum" value="2222" type="long" />
+<field name="status" value="0" type="long" />
+<field name="name" value="test1" type="string" />
+</event>
+<event timestamp="485" name="lttng_statedump_process_state">
+<field name="cpu" value="0" type="int" />
+<field name="tid" value="11" type="long" />
+<field name="pid" value="1" type="long" />
+<field name="vtid" value="2" type="long" />
+<field name="ppid" value="1" type="long" />
+<field name="ns_level" value="1" type="long" />
+<field name="ns_inum" value="2222" type="long" />
+<field name="status" value="0" type="long" />
+<field name="name" value="test2" type="string" />
+</event>
+<event timestamp="490" name="lttng_statedump_process_state">
+<field name="cpu" value="0" type="int" />
+<field name="tid" value="100" type="long" />
+<field name="pid" value="11" type="long" />
+<field name="vtid" value="1" type="long" />
+<field name="ppid" value="11" type="long" />
+<field name="ns_level" value="2" type="long" />
+<field name="ns_inum" value="3333" type="long" />
+<field name="status" value="1" type="long" />
+<field name="name" value="test3" type="string" />
+</event>
+<event timestamp="500" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="100" type="long" />
+<field name="next_tid" value="1" type="long" />
+</event>
+<event timestamp="510" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="1" type="long" />
+<field name="next_tid" value="10" type="long" />
+</event>
+<event timestamp="520" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="10" type="long" />
+<field name="next_tid" value="11" type="long" />
+</event>
+<event timestamp="530" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="11" type="long" />
+<field name="next_tid" value="100" type="long" />
+</event>
+<event timestamp="540" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="100" type="long" />
+<field name="next_tid" value="1" type="long" />
+</event>
+<event timestamp="550" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="1" type="long" />
+<field name="next_tid" value="10" type="long" />
+</event>
+<event timestamp="560" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="10" type="long" />
+<field name="next_tid" value="11" type="long" />
+</event>
+<event timestamp="570" name="sched_switch">
+<field name="cpu" value="0" type="int" />
+<field name="prev_comm" value="any2" type="string" />
+<field name="prev_prio" value="20" type="long" />
+<field name="prev_state" value="0" type="long" />
+<field name="next_comm" value="any" type="string" />
+<field name="next_prio" value="20" type="long" />
+<field name="prev_tid" value="11" type="long" />
+<field name="next_tid" value="100" type="long" />
+</event>
+<event timestamp="580" name="sched_process_fork">
+<field name="cpu" value="0" type="int" />
+<field name="parent_tid" value="1" type="long" />
+<field name="child_tid" value="20" type="long" />
+<field name="child_vtid" value="1" type="long" />
+<field name="child_ns_inum" value="4444" type="long" />
+<field name="child_comm" value="test0" type="string" />
+</event>
+<event timestamp="590" name="sched_process_fork">
+<field name="cpu" value="0" type="int" />
+<field name="parent_tid" value="100" type="long" />
+<field name="child_tid" value="4000" type="long" />
+<field name="child_vtid" value="1" type="long" />
+<field name="child_ns_inum" value="5555" type="long" />
+<field name="child_comm" value="test1" type="string" />
+</event>
+<event timestamp="600" name="sched_process_fork">
+<field name="cpu" value="0" type="int" />
+<field name="parent_tid" value="20" type="long" />
+<field name="child_tid" value="200" type="long" />
+<field name="child_vtid" value="1" type="long" />
+<field name="child_ns_inum" value="6666" type="long" />
+<field name="child_comm" value="test2" type="string" />
+</event>
+<event timestamp="610" name="sched_process_fork">
+<field name="cpu" value="0" type="int" />
+<field name="parent_tid" value="20" type="long" />
+<field name="child_tid" value="201" type="long" />
+<field name="child_vtid" value="2" type="long" />
+<field name="child_ns_inum" value="6666" type="long" />
+<field name="child_comm" value="test3" type="string" />
+</event>
+<event timestamp="620" name="sched_process_fork">
+<field name="cpu" value="0" type="int" />
+<field name="parent_tid" value="201" type="long" />
+<field name="child_tid" value="300" type="long" />
+<field name="child_vtid" value="1" type="long" />
+<field name="child_ns_inum" value="7777" type="long" />
+<field name="child_comm" value="test4" type="string" />
+</event>
+</trace>

@@ -1,0 +1,9 @@
+ns1111(tid=1,vtid=tid,ns_level=0)----------------statedump-----
+															-ns4444(tid=20,vtid=1,ns_level=1)
+																-ns5555(tid=200,vtid=1,ns_level=2)
+																-ns5555(tid=201,vtid=2,ns_level=2)
+																	-ns6666(tid=300,vtid=1,ns_level=3)
+	-ns2222(tid=10,vtid=1,ns_level=1)------------statedump-----
+	-ns2222(tid=11,vtid=2,ns_level=1)------------statedump-----
+		-ns3333(tid=100,vtid=1,ns_level=2)-------statedump-----
+															-ns7777(tid=4000,vtid=1,ns_level=3)
